@@ -13,7 +13,7 @@ These steps were accomplished in the accompanying Jupyter Notebook with Python. 
 The script executes reliably but had to account for messy raw data. For example, in some fields there were lone newline characters (\n) which caused issues with row cleaning. I also encountered at least one definite typo in the `birth_year` column: the value was 1885 so I assume the intended value was 1985. To combat this I introduced a filter to remove all rows where `birth_year` was less than 1920.
 
 ## Analysis
-Once the data was cleaned and prepared for use, I loaded it into a [Tableau Workbook](https://public.tableau.com/views/citi-bike-analytics_16677144668210/CitiBike?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link) for visualization. 
+Once the data was cleaned and prepared for use, I loaded it into a [Tableau Workbook](https://public.tableau.com/views/citi-bike-analytics_16677144668210/YearlyUsage?:language=en-US&:display_count=n&:origin=viz_share_link) for visualization. 
 
 ### Yearly Usage
 When one looks at the yearly usage trend, it is clear the program experienced a rapid increase in popularity fron 2014 to 2019. It is reasonable to assume the decrease in popularity from 2019 to 2020 is mostly due to the COVID-19 pandemic. The drastic drop in 2021 is due to the dataset provided (2021 dataset was incomplete due to formatting change).
